@@ -1,4 +1,6 @@
 fn main() {
+    println!("\n<=====================================>\n");
+
     let mut height = 190;
     height = height - 20;
     let result = if height < 180 {

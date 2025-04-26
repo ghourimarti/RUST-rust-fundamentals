@@ -1,6 +1,7 @@
 
-
 fn process_numbers(numbers: &[i32]) {
+    println!("\n<=====================================>\n");
+
     // Initialize the sum to zero
     let mut sum = 0;
 

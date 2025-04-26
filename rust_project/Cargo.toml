@@ -1,9 +1,6 @@
 [package]
-name = "RUST-rust-fundamentals"
+name = "rust_project"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-
-[lib]
-path = "src/main.rs"

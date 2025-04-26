@@ -8,6 +8,7 @@ fn sum(numbers: &[i32]) -> i32 {
 }
 
 fn main() {
+    println!("\n<=====================================>\n");
     // There are no variadic arguments in Rust
     let numbers = [1, 2, 3, 4, 5];
     let result = sum(&numbers);

@@ -1,6 +1,8 @@
 use std::io;
 
 fn main() {
+    println!("\n<=====================================>\n");
+
     println!("Please enter a greeting:");
     let mut name = String::new();
     io::stdin().read_line(&mut name).expect("Failed to read input");

@@ -2,6 +2,7 @@ use std::fs::File;
 use std::io::{BufRead, BufReader};
 
 fn main() {
+    println!("\n<=====================================>\n");
     let file = File::open("non_existent_file.txt");
     let file = match file {
         Ok(file) => file,

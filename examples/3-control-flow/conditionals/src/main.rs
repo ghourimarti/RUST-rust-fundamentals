@@ -1,4 +1,5 @@
 fn main() {
+    println!("\n<=====================================>\n");
     let proceed = false;
     if proceed {
         println!("Proceeding");

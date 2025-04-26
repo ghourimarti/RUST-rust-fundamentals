@@ -4,8 +4,10 @@ use std::io;
 // asking for user input until the user types a specific word (in this case,
 // "stop").
 fn main() {
+    println!("\n<=====================================>\n");
     let mut input = String::new();
-    while input.trim() != "stop" {
+    while input.trim() != "stop" 
+    {
         input.clear();
         println!("Please enter a word (type 'stop' to exit):");
         io::stdin().read_line(&mut input).expect("Failed to read input");

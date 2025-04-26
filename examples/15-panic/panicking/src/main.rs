@@ -9,5 +9,6 @@ fn loop_and_panic(numbers: Vec<i32>) {
 
 
 fn main() {
+    println!("\n<=====================================>\n");
     loop_and_panic(vec![1, 2, 3, 4, -5]);
 }
